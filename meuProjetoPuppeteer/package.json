@@ -1,7 +1,6 @@
 {
-  "name": "meuprojetopuppeteer",
+  "name": "first-puppeteer-scraper-example",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "puppeteer": "^22.4.1"
+    "puppeteer": "^19.6.2"
   }
 }

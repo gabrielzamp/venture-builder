@@ -7,9 +7,8 @@
     {
       "type": "chrome",
       "request": "launch",
-      "name": "Launch Chrome against localhost",
+      "name": "Launch Chrome",
       "url": "https://www.olx.com.br/autos-e-pecas/carros-vans-e-utilitarios/estado-sc/florianopolis-e-regiao?cf=1&me=80000&ms=5000&rs=63",
-      "webRoot": "${workspaceFolder}"
     }
   ]
 }
