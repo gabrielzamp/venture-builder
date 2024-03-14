@@ -15,6 +15,11 @@ const puppeteer = require("puppeteer");
     "https://www.olx.com.br/autos-e-pecas/carros-vans-e-utilitarios/estado-sc/florianopolis-e-regiao?cf=1&me=80000&ms=5000&rs=63",
     { waitUntil: "networkidle2" }
   );
+  
+  const listButton = await page.$('button[aria-label*="Ativar visualização em lista"]');
+  console.log(listButton);
+  await listButton.click();
+
 
   // Espera pelo seletor dos anúncios para garantir que eles foram carregados
   await page.waitForSelector(".olx-ad-card.olx-ad-card--horizontal", {
